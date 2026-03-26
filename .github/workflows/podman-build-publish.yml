@@ -30,8 +30,8 @@ jobs:
 
       - name: Build Container image
         run: |
-          podman build -t ghcr.io/mtnstar/infra-test-ubuntu:24.04 .
+          podman build -t ghcr.io/mtnsoft/infra-test-ubuntu:24.04 .
 
       - name: Push Container image
         run: |
-          podman push ghcr.io/mtnstar/infra-test-ubuntu:24.04
+          podman push ghcr.io/mtnsoft/infra-test-ubuntu:24.04

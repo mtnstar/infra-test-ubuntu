@@ -6,4 +6,4 @@ user: test-admin
 
 ## Run locally
 
-`podman run -it ghcr.io/mtnstar/infra-test-ubuntu:24.04`
+`podman run -it ghcr.io/mtnsoft/infra-test-ubuntu:24.04`
